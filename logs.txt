@@ -1,0 +1,16 @@
+timestamp,userid,activity,details,ip_address,department,role
+2023-08-18 8:30:00,user1,login,success,192.168.1.10,HR,employee
+2023-08-18 18:30:00,user2,login,success,192.168.1.11,Finance,manager
+2023-08-18 18:35:00,guest1,change_role,admin,192.168.1.12,,guest
+2023-08-18 18:40:00,user3,login,fail,192.168.1.13,IT,admin
+2023-08-18 18:42:00,user3,login,fail,192.168.1.13,IT,admin
+2023-08-18 18:44:00,user3,login,fail,192.168.1.13,IT,admin
+2023-08-18 9:15:00,user4,access,unauthorized_directory,192.168.1.14,HR,employee
+2023-08-18 10:05:00,user5,download,confidential_file,192.168.1.15,Marketing,employee
+2023-08-18 11:20:00,guest2,login,success,192.168.1.16,,guest
+2023-08-18 11:25:00,guest2,change_role,admin,192.168.1.16,,guest
+2023-08-18 12:30:00,user6,login,success,192.168.2.10,IT,employee
+2023-08-18 13:00:00,user7,access,confidential_directory,192.168.2.11,HR,manager
+2023-08-18 14:10:00,user8,login,success,192.168.2.12,Marketing,employee
+2023-08-18 15:20:00,user9,download,unauthorized_file,192.168.2.13,Finance,employee
+2023-08-18 16:30:00,user10,login,fail,192.168.2.14,IT,admin

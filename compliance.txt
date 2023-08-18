@@ -1,0 +1,6 @@
+Rule 1: No user should access the system outside of business hours (9 AM - 5 PM).
+Rule 2: Admin privileges should not be granted to guest users.
+Rule 3: Failed login attempts should not exceed 3 within a 10-minute window.
+Rule 4: Confidential files should not be accessed by non-admin users.
+Rule 5: Unauthorized IP addresses should not access the system.
+Rule 6: Users should not access directories outside of their designated department.

@@ -1,3 +1,7 @@
+'''
+pip install torch
+pip intall transformers
+'''
 import torch, sys
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
